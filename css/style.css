@@ -1,0 +1,155 @@
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+
+.main-menu-icon{
+    color:white;
+}
+
+.btn-close-white{
+    opacity:1;
+}
+
+.btn-close-white:hover,
+.btn-close-white:focus{
+    box-shadow:none;
+}
+
+
+
+.brands-list-scroll {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.brands-list-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.brands-list-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.brands-list-scroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.brands-list-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* .homepage-container{
+    position: absolute;
+} */
+
+.home-page-image{
+    height:100vh;
+    width:100%;
+    object-fit:cover;
+    filter: brightness(0.8) contrast(1.1);
+}
+
+.about-page-section{
+    background-image: linear-gradient(0deg, gray, rgb(75, 75, 75), black);
+    color:white;
+}
+
+.about-text{
+    display:flex;
+    height: 100vh;
+    justify-content:center;
+    align-items: center;
+}
+
+.go-down-button{
+    text-align:center;
+    padding-top:10px;
+}
+
+.service-page-section{
+    background-image: linear-gradient(180deg, gray, rgb(75, 75, 75), black);
+    min-height:100vh;
+}
+
+
+.service-page-section .card{
+    background-color:black;
+    box-shadow:0px 0px 5px 1px gray;
+}
+
+.service-page-section .card img{
+    height:150px;
+    width:100%;
+    object-fit:cover;
+}
+
+.service-page-section .card h5{
+    color:white;
+    text-align: center;
+}
+
+.search-car-brands-input{
+    width:100%;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+.search-car-brands-input:focus{
+    outline:none;
+}
+
+.see-all-button-row{
+    text-align: center;
+}
+
+.see-all-button-row a{
+    width:50%;
+    color:black;
+    font-weight:700;
+}
+
+
+.see-all-button-row-see-all-html a{
+    
+    width:100%;
+    color:black;
+    font-weight:700;
+}
+
+@media (max-width:768px) {
+    .service-page-section .card img{
+        height:200px;
+    }
+}
+
+@media (max-width:681px) {
+    .service-page-section .card img{
+        height:170px;
+    }
+}
+
+@media (max-width:576px) {
+    .service-page-section .card img{
+        height:130px;
+    }
+    .see-all-button-row a{
+        width:100%;
+    }
+    .service-page-section .card h5{
+        font-size:18px;
+    }
+}
+
+@media (max-width:451px) {
+    .service-page-section .card img{
+        height:100px;
+    }
+    .service-page-section .card h5{
+        font-size:16px;
+    }
+}
